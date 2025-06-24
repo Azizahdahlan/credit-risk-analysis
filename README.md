@@ -26,25 +26,10 @@ To compare traditional statistical modeling (Logistic Regression) with modern ma
 - PAY_0 vs default countplot
 
 ## Folder Structure
-credit-risk-analysis/
-│
-├── data/
-│   ├── UCI_Credit_Card.csv.zip                # Original dataset (UCI Taiwan Credit Card)
-│   └── UCI_Credit_Card.csv                    # Unzipped original dataset
-│
-├── images/
-│   ├── boxplot_limitball_default.png 
-|   └── ROC Curve Comparison.png
-|   └── countplot_default_pay0.png                  
-|   └── top10_features_importances.png                  
-│
-├── notebooks/
-│   ├── credit_risk_model_comparison.ipynb      
-│
-├── requirements.txt                         # Python dependencies
-└── README.md                                # Project overview and instructions
 
-
+- notebooks/     # Main modeling notebook
+- data/          # Dataset
+- images/        # Visuals used in Medium or report
 
 ## Getting Started
 
